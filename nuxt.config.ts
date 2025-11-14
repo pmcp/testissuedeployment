@@ -41,8 +41,7 @@ export default defineNuxtConfig({
   hub: {
     database: true,
     blob: true,
-    kv: true,
-    workers: true
+    kv: true
   },
   auth: {
     webAuthn: true,
